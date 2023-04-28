@@ -13,18 +13,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pavanbellamkonda/elasticsearch-migrate.git"
+    "url": "git+https://github.com/uma-sankar/elasticsearch-migrate.git"
   },
   "keywords": [
     "elasticsearch",
     "migrations"
   ],
-  "author": "Pavan Bellamkonda",
+  "author": "Uma Sankar Bobba",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/pavanbellamkonda/elasticsearch-migrate/issues"
+    "url": "https://github.com/uma-sankar/elasticsearch-migrate/issues"
   },
-  "homepage": "https://github.com/pavanbellamkonda/elasticsearch-migrate#readme",
+  "homepage": "https://github.com/uma-sankar/elasticsearch-migrate#readme",
   "devDependencies": {
     "@elastic/elasticsearch": "^7.13.0",
     "@istanbuljs/nyc-config-typescript": "^1.0.1",
