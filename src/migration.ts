@@ -4,7 +4,7 @@ import { forceReleaseMigrationLock } from './migration-lock'
 import { init } from './init';
 import { migrateLatestInternal, migrateNextInternal } from './migrate';
 
-export class Migration implements types.Migration {
+export class Migration {
   private context!: MigrationContext;
   private config: MigrationConfig;
 

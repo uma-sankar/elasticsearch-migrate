@@ -66,14 +66,15 @@ export declare function migrateLatest(config: MigrationConfig): Promise<void>;
 export declare function migrateNext(config: MigrationConfig | MigrationContext): Promise<MigrationContext>;
 export declare function forceReleaseMigrationLock(config: MigrationConfig): Promise<void>;
 
+
 export declare class Migration {
-  constructor(config: MigrationConfig) {}
-
-  latest = async () => {}
-  next = async () => {}
-  forceReleaseMigrationLock = async () => {}
+  private context;
+  private config;
+  constructor(config: MigrationConfig);
+  latest(): Promise<void>;
+  next(): Promise<void>;
+  forceReleaseMigrationLock(): Promise<void>;
 }
-
 export interface MigrateFnInput {
   client: Client;
 }
